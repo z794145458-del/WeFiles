@@ -1,0 +1,199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="1FbX1OtygoseKxIHOEi3">
+    <mxGraphModel dx="1092" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-1" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="MssqlCommandBase" vertex="1">
+          <mxGeometry height="112" width="300" x="280" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-2" parent="VYXDy-VKAJshzCNc-2E5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-3" parent="VYXDy-VKAJshzCNc-2E5-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-4" parent="VYXDy-VKAJshzCNc-2E5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetConnection(SqlConnection): bool" vertex="1">
+          <mxGeometry height="26" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-5" parent="VYXDy-VKAJshzCNc-2E5-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ExecuteNonQuery(): int" vertex="1">
+          <mxGeometry height="26" width="300" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-6" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="update_zone_collect" vertex="1">
+          <mxGeometry height="86" width="160" x="349" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-7" parent="VYXDy-VKAJshzCNc-2E5-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-8" parent="VYXDy-VKAJshzCNc-2E5-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-9" parent="VYXDy-VKAJshzCNc-2E5-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetParm(......): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-10" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-6" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="VYXDy-VKAJshzCNc-2E5-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="679" y="1280" as="sourcePoint" />
+            <mxPoint x="839" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-11" diagramCategory="uml" diagramName="Interface" parent="1" style="html=1;" value="«interface»&lt;br /&gt;&lt;b&gt;IResetable&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="375" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-12" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-1" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="VYXDy-VKAJshzCNc-2E5-11" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="679" y="1280" as="sourcePoint" />
+            <mxPoint x="839" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-13" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Process" vertex="1">
+          <mxGeometry height="86" width="320" x="849" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-14" parent="VYXDy-VKAJshzCNc-2E5-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-15" parent="VYXDy-VKAJshzCNc-2E5-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-16" parent="VYXDy-VKAJshzCNc-2E5-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnZoneObjectCollect(int,ClientToken,ReadStream): void" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-17" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-22" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="VYXDy-VKAJshzCNc-2E5-26" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1577" y="1180" as="sourcePoint" />
+            <mxPoint x="1737" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-18" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="DatabaseManager" vertex="1">
+          <mxGeometry height="86" width="160" x="1349" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-19" parent="VYXDy-VKAJshzCNc-2E5-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Database: MssqlManager" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-20" parent="VYXDy-VKAJshzCNc-2E5-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-21" parent="VYXDy-VKAJshzCNc-2E5-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-22" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="Game" vertex="1">
+          <mxGeometry height="86" width="420" x="1917" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-23" parent="VYXDy-VKAJshzCNc-2E5-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ _pool_update_zone_collect: PoolBase&lt;update_zone_collect&gt;" vertex="1">
+          <mxGeometry height="26" width="420" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-24" parent="VYXDy-VKAJshzCNc-2E5-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="420" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-25" parent="VYXDy-VKAJshzCNc-2E5-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ZoneObjectCollectAsync(int,long,mps_gameitem_update,......): type" vertex="1">
+          <mxGeometry height="26" width="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-26" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="MssqlBase" vertex="1">
+          <mxGeometry height="86" width="160" x="2047" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-27" parent="VYXDy-VKAJshzCNc-2E5-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-28" parent="VYXDy-VKAJshzCNc-2E5-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-29" parent="VYXDy-VKAJshzCNc-2E5-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-30" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="MssqlManager" vertex="1">
+          <mxGeometry height="86" width="160" x="1609" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-31" parent="VYXDy-VKAJshzCNc-2E5-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Game: MsSql.Game" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-32" parent="VYXDy-VKAJshzCNc-2E5-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-33" parent="VYXDy-VKAJshzCNc-2E5-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-34" diagramCategory="uml" diagramName="Composition1" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-31" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="VYXDy-VKAJshzCNc-2E5-22" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1689" y="780" as="sourcePoint" />
+            <mxPoint x="1849" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-35" diagramCategory="uml" diagramName="Composition1" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-19" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" target="VYXDy-VKAJshzCNc-2E5-31" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1739" y="840" as="sourcePoint" />
+            <mxPoint x="1899" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-36" diagramCategory="uml" diagramName="Dependency" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-16" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="VYXDy-VKAJshzCNc-2E5-18" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1359" y="870" as="sourcePoint" />
+            <mxPoint x="1519" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-37" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="RpcNetworkManager" vertex="1">
+          <mxGeometry height="86" width="320" x="849" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-38" parent="VYXDy-VKAJshzCNc-2E5-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ _process: Process" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-39" parent="VYXDy-VKAJshzCNc-2E5-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-40" parent="VYXDy-VKAJshzCNc-2E5-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ RegisterPacketProcess(): void" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-41" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-37" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="VYXDy-VKAJshzCNc-2E5-42" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="699" y="870" as="sourcePoint" />
+            <mxPoint x="859" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-42" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="RpcNetworkBase" vertex="1">
+          <mxGeometry height="86" width="395" x="811.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-43" parent="VYXDy-VKAJshzCNc-2E5-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ _dicPacketProcess: Dictionary&lt;mpe_rpc_cmd,funcPackerProcess&gt;" vertex="1">
+          <mxGeometry height="26" width="395" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-44" parent="VYXDy-VKAJshzCNc-2E5-42" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="395" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-45" parent="VYXDy-VKAJshzCNc-2E5-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Initialize(rpc_,ConnectedCallback,RemoveManagedServer): bool" vertex="1">
+          <mxGeometry height="26" width="395" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-46" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-45" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VYXDy-VKAJshzCNc-2E5-40" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="503" />
+              <mxPoint x="729" y="653" />
+            </Array>
+            <mxPoint x="699" y="870" as="sourcePoint" />
+            <mxPoint x="789" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-47" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="VYXDy-VKAJshzCNc-2E5-40" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1.009;exitY=0.808;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VYXDy-VKAJshzCNc-2E5-16" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1199" y="661" />
+              <mxPoint x="1199" y="810" />
+              <mxPoint x="729" y="810" />
+              <mxPoint x="729" y="922" />
+            </Array>
+            <mxPoint x="699" y="870" as="sourcePoint" />
+            <mxPoint x="859" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYXDy-VKAJshzCNc-2E5-48" diagramCategory="uml" diagramName="Composition1" edge="1" parent="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <Array as="points">
+              <mxPoint x="1869" y="957" />
+              <mxPoint x="1869" y="1103" />
+              <mxPoint x="1099" y="1103" />
+            </Array>
+            <mxPoint x="1917" y="957" as="sourcePoint" />
+            <mxPoint x="509" y="1102.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

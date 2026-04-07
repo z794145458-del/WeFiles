@@ -1,0 +1,287 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="-BQqoVX2DNqV8wdxaWja">
+    <mxGraphModel dx="1092" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-1" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-21" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-17" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1600" y="1474" as="sourcePoint" />
+            <mxPoint x="1760" y="1474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-2" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-14" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-10" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1530" y="1274" as="sourcePoint" />
+            <mxPoint x="1690" y="1274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-3" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-10" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-9" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1620" y="864" as="sourcePoint" />
+            <mxPoint x="1780" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-4" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-18" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-6" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1690" y="1064" as="sourcePoint" />
+            <mxPoint x="1850" y="1064" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-5" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-37" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-9" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="990" y="1034" as="sourcePoint" />
+            <mxPoint x="750" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-6" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UMirPrefab" vertex="1">
+          <mxGeometry height="86" width="160" x="940" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-7" parent="TLQAp_vj4oSOQLClWR7T-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-8" parent="TLQAp_vj4oSOQLClWR7T-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-9" parent="TLQAp_vj4oSOQLClWR7T-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-10" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UListItemPrefab" vertex="1">
+          <mxGeometry height="86" width="160" x="1390" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-11" parent="TLQAp_vj4oSOQLClWR7T-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-12" parent="TLQAp_vj4oSOQLClWR7T-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-13" parent="TLQAp_vj4oSOQLClWR7T-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-14" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UInventory_ListItemPrefab" vertex="1">
+          <mxGeometry height="86" width="360" x="1290" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-15" parent="TLQAp_vj4oSOQLClWR7T-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ItemInfoMenuPrefab: type" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-16" parent="TLQAp_vj4oSOQLClWR7T-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-17" parent="TLQAp_vj4oSOQLClWR7T-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetData(TSharedPtr&lt;FItem_Data&gt;,E_InventoryListType): bool" vertex="1">
+          <mxGeometry height="26" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-18" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UInventoryItemListPrefab" vertex="1">
+          <mxGeometry height="190" width="360" x="840" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-19" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ ItemInfoMenuPrefab_: UItemInfoMenuPrefab*" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-20" parent="TLQAp_vj4oSOQLClWR7T-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-21" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=#FFDBE1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnSetItem_Implementation(int32,UListItemPrefab*): void" vertex="1">
+          <mxGeometry height="26" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-22" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetItem_impl_Implementation(int32,UWidget*): void" vertex="1">
+          <mxGeometry height="26" width="360" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-23" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetTapCategory(E_InventoryTapType): void" vertex="1">
+          <mxGeometry height="26" width="360" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-24" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ RefreshList(bool): void" vertex="1">
+          <mxGeometry height="26" width="360" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-25" parent="TLQAp_vj4oSOQLClWR7T-18" style="text;strokeColor=none;fillColor=#FF032D;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ DoubleSelectItem(TSharePtr&lt;FItem_Data&gt;): void" vertex="1">
+          <mxGeometry height="26" width="360" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-26" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-33" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-18" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="990" y="954" as="sourcePoint" />
+            <mxPoint x="1150" y="954" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-27" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-36" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-23" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="944" />
+            </Array>
+            <mxPoint x="990" y="954" as="sourcePoint" />
+            <mxPoint x="1150" y="954" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-28" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-29" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-14" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="790" y="894" as="sourcePoint" />
+            <mxPoint x="950" y="894" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-29" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="HUD_List_Item(BP)" vertex="1">
+          <mxGeometry height="86" width="160" x="1391" y="984" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-30" parent="TLQAp_vj4oSOQLClWR7T-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-31" parent="TLQAp_vj4oSOQLClWR7T-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-32" parent="TLQAp_vj4oSOQLClWR7T-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-33" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="HUD_IV_Frame(BP)" vertex="1">
+          <mxGeometry height="86" width="160" x="940" y="1304" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-34" parent="TLQAp_vj4oSOQLClWR7T-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-35" parent="TLQAp_vj4oSOQLClWR7T-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-36" parent="TLQAp_vj4oSOQLClWR7T-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ AllTabDispatcher(): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-37" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UItemListFramePrefab" vertex="1">
+          <mxGeometry height="164" width="360" x="380" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-38" parent="TLQAp_vj4oSOQLClWR7T-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnSetItemDelegate_: FOnSetItemDelegate" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-39" parent="TLQAp_vj4oSOQLClWR7T-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-40" parent="TLQAp_vj4oSOQLClWR7T-37" style="text;strokeColor=none;fillColor=#FFFF00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnScrollBoxInitComplete_Implementation(): void" vertex="1">
+          <mxGeometry height="26" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-41" parent="TLQAp_vj4oSOQLClWR7T-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnSetItem(int32,UListItemPrefab*): void" vertex="1">
+          <mxGeometry height="26" width="360" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-42" parent="TLQAp_vj4oSOQLClWR7T-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetItem_impl_Implementation(int32,UListItemPrefab*): void" vertex="1">
+          <mxGeometry height="26" width="360" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-43" parent="TLQAp_vj4oSOQLClWR7T-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetData(TArray&lt;listelement&gt;,bool,bool): bool" vertex="1">
+          <mxGeometry height="26" width="360" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-44" diagramCategory="uml" diagramName="Composition1" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-19" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-47" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="980" y="884" as="sourcePoint" />
+            <mxPoint x="1140" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-45" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-25" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF030B;" target="TLQAp_vj4oSOQLClWR7T-50" value="name">
+          <mxGeometry relative="1" x="0.5652" y="13" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980" y="884" as="sourcePoint" />
+            <mxPoint x="1140" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-46" connectable="0" parent="TLQAp_vj4oSOQLClWR7T-45" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-140" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-47" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="UItemInfoMenuPrefab" vertex="1">
+          <mxGeometry height="86" width="360" x="250" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-48" parent="TLQAp_vj4oSOQLClWR7T-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Item_Data: TsharePtr&lt;struct FItem_Data&gt;" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-49" parent="TLQAp_vj4oSOQLClWR7T-47" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-50" parent="TLQAp_vj4oSOQLClWR7T-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ EquipItem(): void" vertex="1">
+          <mxGeometry height="26" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-51" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-17" style="endArrow=open;endFill=1;endSize=12;html=1;strokeColor=#FF030B;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-55" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1210" y="884" as="sourcePoint" />
+            <mxPoint x="1370" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-52" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" value="UMirItemPrefab" vertex="1">
+          <mxGeometry height="112" width="290" x="1820" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-53" parent="TLQAp_vj4oSOQLClWR7T-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="290" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-54" parent="TLQAp_vj4oSOQLClWR7T-52" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="290" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-55" parent="TLQAp_vj4oSOQLClWR7T-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetIcon(TSharePtr&lt;FItem_Data&gt;,int64): bool" vertex="1">
+          <mxGeometry height="26" width="290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-56" parent="TLQAp_vj4oSOQLClWR7T-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetIcon(int32,int64): bool" vertex="1">
+          <mxGeometry height="26" width="290" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-57" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" x="950" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-58" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-42" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#FF030B;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-21" value="name">
+          <mxGeometry relative="1" x="-0.875" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980" y="1014" as="sourcePoint" />
+            <mxPoint x="1140" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-59" connectable="0" parent="TLQAp_vj4oSOQLClWR7T-58" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-60" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="player_item_system" vertex="1">
+          <mxGeometry height="138" width="310" x="960" y="1734" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-61" parent="TLQAp_vj4oSOQLClWR7T-60" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-62" parent="TLQAp_vj4oSOQLClWR7T-60" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-63" parent="TLQAp_vj4oSOQLClWR7T-60" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ make_player_db_data(proto_player_item_data&amp;): void" vertex="1">
+          <mxGeometry height="26" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-64" parent="TLQAp_vj4oSOQLClWR7T-60" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ sync_data_to_client(): void" vertex="1">
+          <mxGeometry height="26" width="310" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-65" parent="TLQAp_vj4oSOQLClWR7T-60" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ save_data(): void" vertex="1">
+          <mxGeometry height="26" width="310" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-66" diagramCategory="uml" diagramName="Association3" edge="1" parent="TLQAp_vj4oSOQLClWR7T-60" source="TLQAp_vj4oSOQLClWR7T-64" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-63" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="99" />
+              <mxPoint x="-70" y="73" />
+            </Array>
+            <mxPoint x="290" y="-10" as="sourcePoint" />
+            <mxPoint x="450" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-67" diagramCategory="uml" diagramName="Association3" edge="1" parent="TLQAp_vj4oSOQLClWR7T-60" source="TLQAp_vj4oSOQLClWR7T-65" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-63" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="-160" y="125" />
+              <mxPoint x="-160" y="60" />
+            </Array>
+            <mxPoint x="290" y="-10" as="sourcePoint" />
+            <mxPoint x="450" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-68" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="cabin_inventory" vertex="1">
+          <mxGeometry height="86" width="480" x="1470" y="1734" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-69" parent="TLQAp_vj4oSOQLClWR7T-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="480" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-70" parent="TLQAp_vj4oSOQLClWR7T-68" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="480" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-71" parent="TLQAp_vj4oSOQLClWR7T-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ make_db_data(proto_sync_player_item_info&amp;,proto_player_item_data&amp;): void" vertex="1">
+          <mxGeometry height="26" width="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TLQAp_vj4oSOQLClWR7T-72" diagramCategory="uml" diagramName="Association3" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-63" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TLQAp_vj4oSOQLClWR7T-71" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1250" y="1724" as="sourcePoint" />
+            <mxPoint x="1410" y="1724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

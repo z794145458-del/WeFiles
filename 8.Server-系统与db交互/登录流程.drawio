@@ -1,0 +1,1214 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="QadFr-QKL5eA7e6YUhkm">
+    <mxGraphModel dx="1092" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="upDsCQsWGpah_1pPZecW-1" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="base_session_mgr" vertex="1">
+          <mxGeometry height="86" width="160" x="2027" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-2" parent="upDsCQsWGpah_1pPZecW-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-3" parent="upDsCQsWGpah_1pPZecW-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-4" parent="upDsCQsWGpah_1pPZecW-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-5" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="singleton" vertex="1">
+          <mxGeometry height="86" width="160" x="2197" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-6" parent="upDsCQsWGpah_1pPZecW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-7" parent="upDsCQsWGpah_1pPZecW-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-8" parent="upDsCQsWGpah_1pPZecW-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-9" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="base_mgr_type" vertex="1">
+          <mxGeometry height="86" width="160" x="2367" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-10" parent="upDsCQsWGpah_1pPZecW-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-11" parent="upDsCQsWGpah_1pPZecW-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-12" parent="upDsCQsWGpah_1pPZecW-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-13" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="game_session_mgr" vertex="1">
+          <mxGeometry height="242" width="500" x="2027" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-14" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="500" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-15" parent="upDsCQsWGpah_1pPZecW-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="500" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-16" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ register_msg_handle(): void" vertex="1">
+          <mxGeometry height="26" width="500" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-17" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ init(): void" vertex="1">
+          <mxGeometry height="26" width="500" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-18" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ dispatch_to_handle(...): void" vertex="1">
+          <mxGeometry height="26" width="500" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-19" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ proc_msg(peer*,proto_unpacker): void" vertex="1">
+          <mxGeometry height="26" width="500" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-20" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_msg(int32,e_server_type,peer*,const PROTO&amp;): void" vertex="1">
+          <mxGeometry height="26" width="500" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-21" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_msg(int32,e_server_type,const PROTO&amp;,const xstring&amp;): void" vertex="1">
+          <mxGeometry height="26" width="500" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-22" parent="upDsCQsWGpah_1pPZecW-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_msg(PROTO&amp;,xstring&amp;): void" vertex="1">
+          <mxGeometry height="26" width="500" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-23" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-106" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-13" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2347" y="910" as="sourcePoint" />
+            <mxPoint x="2507" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-24" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-106" style="endArrow=block;endSize=16;endFill=0;entryX=0.506;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-91" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2747" y="1140" as="sourcePoint" />
+            <mxPoint x="2884.9617834394903" y="1026" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-25" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-13" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-5" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2437" y="910" as="sourcePoint" />
+            <mxPoint x="2597" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-26" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-13" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.455;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-12" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2437" y="910" as="sourcePoint" />
+            <mxPoint x="2597" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-27" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-13" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.413;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-4" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2437" y="910" as="sourcePoint" />
+            <mxPoint x="2597" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-28" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;msg_processer_interface&#xa;dispatch_to_handle&#xa;" vertex="1">
+          <mxGeometry height="170" width="170" x="1917" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-29" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-1" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.448;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-33" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2087" y="580" as="sourcePoint" />
+            <mxPoint x="2247" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-30" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="base_mgr" vertex="1">
+          <mxGeometry height="86" width="160" x="1747" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-31" parent="upDsCQsWGpah_1pPZecW-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-32" parent="upDsCQsWGpah_1pPZecW-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-33" parent="upDsCQsWGpah_1pPZecW-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-34" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-1" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-28" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2087" y="580" as="sourcePoint" />
+            <mxPoint x="2247" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-35" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;log_base_interface" vertex="1">
+          <mxGeometry height="50" width="110" x="1772" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-36" diagramCategory="uml" diagramName="Dependency" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-30" style="endArrow=open;endSize=12;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-35" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2087" y="580" as="sourcePoint" />
+            <mxPoint x="2247" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-37" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="boost::noncopyable" vertex="1">
+          <mxGeometry height="100" width="160" x="2194" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-38" parent="upDsCQsWGpah_1pPZecW-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-39" parent="upDsCQsWGpah_1pPZecW-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-40" parent="upDsCQsWGpah_1pPZecW-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-41" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-5" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-37" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2087" y="580" as="sourcePoint" />
+            <mxPoint x="2247" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-42" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;msg_processer_interface" vertex="1">
+          <mxGeometry height="50" width="160" x="2852" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-43" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-87" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-42" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2817" y="830" as="sourcePoint" />
+            <mxPoint x="2977" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-44" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-69" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-65" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1567" y="850" as="sourcePoint" />
+            <mxPoint x="1727" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-45" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;log_base_interface" vertex="1">
+          <mxGeometry height="50" width="110" x="1427" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-46" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-69" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-45" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1567" y="850" as="sourcePoint" />
+            <mxPoint x="1727" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-47" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;msg_processer_interface" vertex="1">
+          <mxGeometry height="50" width="160" x="1187" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-48" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-65" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-47" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1667" y="570" as="sourcePoint" />
+            <mxPoint x="1827" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-49" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-133" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-75" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="1667" y="605" as="sourcePoint" />
+            <mxPoint x="1827" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-50" connectable="0" parent="upDsCQsWGpah_1pPZecW-49" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-51" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-74" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-19" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1537" y="1030" />
+              <mxPoint x="1787" y="1030" />
+            </Array>
+            <mxPoint x="1587" y="1001" as="sourcePoint" />
+            <mxPoint x="2187" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-52" connectable="0" parent="upDsCQsWGpah_1pPZecW-51" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-53" diagramCategory="uml" diagramName="Interface" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="«interface»&#xa;msg_info_interface" vertex="1">
+          <mxGeometry height="50" width="160" x="3140" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-54" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-92" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-53" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="3240" y="940" as="sourcePoint" />
+            <mxPoint x="3400" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-55" diagramCategory="uml" diagramName="Object" parent="1" style="fontColor=#000000;labelBackgroundColor=none;" value="s_msg_handle_map" vertex="1">
+          <mxGeometry height="50" width="400" x="2627" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-56" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-95" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-110" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3377" y="953" />
+              <mxPoint x="3377" y="1441" />
+            </Array>
+            <mxPoint x="3287" y="911" as="sourcePoint" />
+            <mxPoint x="2707" y="1223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-57" connectable="0" parent="upDsCQsWGpah_1pPZecW-56" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="63" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-58" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="Peer" vertex="1">
+          <mxGeometry height="86" width="160" x="2547" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-59" parent="upDsCQsWGpah_1pPZecW-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-60" parent="upDsCQsWGpah_1pPZecW-58" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-61" parent="upDsCQsWGpah_1pPZecW-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send(...): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-62" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-20" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-61" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2737" y="1057" />
+              <mxPoint x="2737" y="970" />
+            </Array>
+            <mxPoint x="2407" y="910" as="sourcePoint" />
+            <mxPoint x="2567" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-63" connectable="0" parent="upDsCQsWGpah_1pPZecW-62" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-64" diagramCategory="uml" diagramName="Composition1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-71" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fontColor=#000000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-81" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1247" y="945" as="sourcePoint" />
+            <mxPoint x="1407" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-65" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="base_msg_dispatcher" vertex="1">
+          <mxGeometry height="86" width="160" x="1187" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-66" parent="upDsCQsWGpah_1pPZecW-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-67" parent="upDsCQsWGpah_1pPZecW-65" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-68" parent="upDsCQsWGpah_1pPZecW-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-69" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="work" vertex="1">
+          <mxGeometry height="242" width="350" x="1187" y="906" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-70" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_mgr_map: array&lt;array&lt;e_server_type,int32,&gt;,int32&gt;" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-71" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_connection: connection_mgr" vertex="1">
+          <mxGeometry height="26" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-72" parent="upDsCQsWGpah_1pPZecW-69" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-73" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ get_msg_processer(e_unit_type): msg_processer_interface*" vertex="1">
+          <mxGeometry height="26" width="350" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-74" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ proc_msg(peer*,proto_unpacker): void" vertex="1">
+          <mxGeometry height="26" width="350" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-75" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ recv_data(peer*,proto_unpacker): void" vertex="1">
+          <mxGeometry height="26" width="350" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-76" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ get_connection_mgr(): connection_mgr&amp;" vertex="1">
+          <mxGeometry height="26" width="350" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-77" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ run(): void" vertex="1">
+          <mxGeometry height="26" width="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-78" parent="upDsCQsWGpah_1pPZecW-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ server_loop(uint32): void" vertex="1">
+          <mxGeometry height="26" width="350" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-79" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-69" source="upDsCQsWGpah_1pPZecW-77" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#331A00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-78" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="203" />
+              <mxPoint x="450" y="274" />
+              <mxPoint x="-60" y="274" />
+              <mxPoint x="-60" y="229" />
+            </Array>
+            <mxPoint x="540" y="154" as="sourcePoint" />
+            <mxPoint x="440" y="84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-80" connectable="0" parent="upDsCQsWGpah_1pPZecW-79" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-81" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="Connection_mgr" vertex="1">
+          <mxGeometry height="86" width="320" x="627" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-82" parent="upDsCQsWGpah_1pPZecW-81" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_peer_array: array&lt;peer*,PEER_NUMBER_MAX&gt;" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-83" parent="upDsCQsWGpah_1pPZecW-81" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-84" parent="upDsCQsWGpah_1pPZecW-81" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ get_peer_by_server_id(const xstring&amp;): peer*" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-85" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-96" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-13" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2207" y="1080" as="sourcePoint" />
+            <mxPoint x="2367" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-86" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-96" style="endArrow=block;endSize=16;endFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-91" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2207" y="1080" as="sourcePoint" />
+            <mxPoint x="2367" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-87" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="base_msg_dispatcher" vertex="1">
+          <mxGeometry height="112" width="250" x="2807" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-88" parent="upDsCQsWGpah_1pPZecW-87" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-89" parent="upDsCQsWGpah_1pPZecW-87" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-90" parent="upDsCQsWGpah_1pPZecW-87" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ dispatch(...): void" vertex="1">
+          <mxGeometry height="26" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-91" parent="upDsCQsWGpah_1pPZecW-87" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ dispatch_to_handle(...): void" vertex="1">
+          <mxGeometry height="26" width="250" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-92" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="msg_dispatch_info" vertex="1">
+          <mxGeometry height="86" width="260" x="3090" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-93" parent="upDsCQsWGpah_1pPZecW-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-94" parent="upDsCQsWGpah_1pPZecW-92" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-95" parent="upDsCQsWGpah_1pPZecW-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ dispatch_msg(peer*,proto_unpacker&amp;): void" vertex="1">
+          <mxGeometry height="26" width="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-96" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="dpproxy_db_mgr" vertex="1">
+          <mxGeometry height="190" width="400" x="1940" y="1264" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-97" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-98" parent="upDsCQsWGpah_1pPZecW-96" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="400" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-99" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ register_msg_handle(): void" vertex="1">
+          <mxGeometry height="26" width="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-100" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_exc_proc(peer*,proto_dp_exc_proc*): void" vertex="1">
+          <mxGeometry height="26" width="400" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-101" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ pack_db_load_data_to_proto(list&lt;any&gt;&amp;,proto_db_data*,...): void" vertex="1">
+          <mxGeometry height="26" width="400" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-102" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ exc_proc(const xstring&amp;,e_server_type,......): bool" vertex="1">
+          <mxGeometry height="26" width="400" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-103" parent="upDsCQsWGpah_1pPZecW-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ exc_db_proc(const xstring&amp;,e_server_type,......): bool" vertex="1">
+          <mxGeometry height="26" width="400" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-104" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-103" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-110" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2170" y="1250" as="sourcePoint" />
+            <mxPoint x="2330" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-105" connectable="0" parent="upDsCQsWGpah_1pPZecW-104" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-106" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="cabin_db_mgr" vertex="1">
+          <mxGeometry height="112" width="320" x="2467" y="1342" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-107" parent="upDsCQsWGpah_1pPZecW-106" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-108" parent="upDsCQsWGpah_1pPZecW-106" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-109" parent="upDsCQsWGpah_1pPZecW-106" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ register_msg_handle(): void" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-110" parent="upDsCQsWGpah_1pPZecW-106" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_exc_result(peer*,proto_cabin_result*): void" vertex="1">
+          <mxGeometry height="26" width="320" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-111" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-152" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-175" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2397" y="1859" as="sourcePoint" />
+            <mxPoint x="2557" y="1859" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-112" connectable="0" parent="upDsCQsWGpah_1pPZecW-111" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-113" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="PlayerRedisCacheInfo" vertex="1">
+          <mxGeometry height="86" width="270" x="1167" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-114" parent="upDsCQsWGpah_1pPZecW-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-115" parent="upDsCQsWGpah_1pPZecW-113" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-116" parent="upDsCQsWGpah_1pPZecW-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ cook_redis_data(): PlayerRedisCacheInfo&amp;" vertex="1">
+          <mxGeometry height="26" width="270" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-117" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-158" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#660033;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-116" value="name">
+          <mxGeometry relative="1" x="-0.75" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2387" y="2165" />
+              <mxPoint x="2387" y="2680" />
+              <mxPoint x="1057" y="2680" />
+              <mxPoint x="1057" y="1753" />
+            </Array>
+            <mxPoint x="1577" y="1740" as="sourcePoint" />
+            <mxPoint x="1737" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-118" connectable="0" parent="upDsCQsWGpah_1pPZecW-117" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-119" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-125" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#660033;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-158" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1517" y="1389" />
+              <mxPoint x="1517" y="2165" />
+            </Array>
+            <mxPoint x="1467" y="1650" as="sourcePoint" />
+            <mxPoint x="1627" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-120" connectable="0" parent="upDsCQsWGpah_1pPZecW-119" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-121" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-122" style="endArrow=block;endSize=16;endFill=0;strokeColor=#331A00;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-69" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1467" y="990" as="sourcePoint" />
+            <mxPoint x="1627" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-122" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="cabin_worker" vertex="1">
+          <mxGeometry height="138" width="310" x="1187" y="1316" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-123" parent="upDsCQsWGpah_1pPZecW-122" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-124" parent="upDsCQsWGpah_1pPZecW-122" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-125" parent="upDsCQsWGpah_1pPZecW-122" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ after_tick(): void" vertex="1">
+          <mxGeometry height="26" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-126" parent="upDsCQsWGpah_1pPZecW-122" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ after_init(): void" vertex="1">
+          <mxGeometry height="26" width="310" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-127" parent="upDsCQsWGpah_1pPZecW-122" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ on_op_state_change(e_worker_op_run_state): void" vertex="1">
+          <mxGeometry height="26" width="310" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-128" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-78" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#331A00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-125" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1597" y="1135" />
+              <mxPoint x="1597" y="1249" />
+              <mxPoint x="1127" y="1249" />
+              <mxPoint x="1127" y="1389" />
+            </Array>
+            <mxPoint x="1467" y="990" as="sourcePoint" />
+            <mxPoint x="1627" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-129" connectable="0" parent="upDsCQsWGpah_1pPZecW-128" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-130" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="Client" vertex="1">
+          <mxGeometry height="112" width="200" x="627" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-131" parent="upDsCQsWGpah_1pPZecW-130" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-132" parent="upDsCQsWGpah_1pPZecW-130" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-133" parent="upDsCQsWGpah_1pPZecW-130" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ on_data_received(type): void" vertex="1">
+          <mxGeometry height="26" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-134" parent="upDsCQsWGpah_1pPZecW-130" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ connect_to(): int32" vertex="1">
+          <mxGeometry height="26" width="200" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-135" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="worker_proxy" vertex="1">
+          <mxGeometry height="86" width="200" x="360" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-136" parent="upDsCQsWGpah_1pPZecW-135" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_worker: worker*" vertex="1">
+          <mxGeometry height="26" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-137" parent="upDsCQsWGpah_1pPZecW-135" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-138" parent="upDsCQsWGpah_1pPZecW-135" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ make_worker(int,char*): void" vertex="1">
+          <mxGeometry height="26" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-139" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-138" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#331A00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-77" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="1303" />
+              <mxPoint x="1037" y="1109" />
+            </Array>
+            <mxPoint x="757" y="990" as="sourcePoint" />
+            <mxPoint x="917" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-140" connectable="0" parent="upDsCQsWGpah_1pPZecW-139" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-141" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-187" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-183" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2147" y="1574" as="sourcePoint" />
+            <mxPoint x="2307" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-142" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-191" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-187" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2147" y="1574" as="sourcePoint" />
+            <mxPoint x="2307" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-143" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="cabin_player" vertex="1">
+          <mxGeometry height="580" width="620" x="1667" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-144" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_system_arr: boost::array&lt;cabin_player_base_system*,(int32)e_cabin_player_system_type::enum_max&gt;" vertex="1">
+          <mxGeometry height="26" width="620" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-145" parent="upDsCQsWGpah_1pPZecW-143" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="620" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-146" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ regist(): void" vertex="1">
+          <mxGeometry height="26" width="620" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-147" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ get_system(): TSYS_CLASS" vertex="1">
+          <mxGeometry height="26" width="620" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-148" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ regist_system(): void" vertex="1">
+          <mxGeometry height="26" width="620" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-149" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ cabin_player()" vertex="1">
+          <mxGeometry height="26" width="620" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-150" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ player_logout(): void" vertex="1">
+          <mxGeometry height="26" width="620" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-151" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_create_player(peer*,proto_cabin_create_player*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-152" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=#FF6666;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ load_system_data() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-153" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=#FF0000;" value="+ handle_select_player(peer*,proto_cabin_login*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-154" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_client_player_info() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-155" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_world_player_load(peer*,proto_load_world_data_result*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-156" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ check_all_system_load() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-157" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ real_select_player() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-158" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ cook_redis_data() : PlayerRedisCacheInfo&amp;" vertex="1">
+          <mxGeometry height="26" width="620" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-159" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-143" source="upDsCQsWGpah_1pPZecW-150" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#660000;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-158" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="177" />
+              <mxPoint x="760" y="385" />
+            </Array>
+            <mxPoint x="673" y="99" as="sourcePoint" />
+            <mxPoint x="833" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-160" connectable="0" parent="upDsCQsWGpah_1pPZecW-159" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-161" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ save_system_data(function,bool,function) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-162" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ tick() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-163" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ save_full_data(function,bool,function) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-164" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ save_system_data_and_destroy() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-165" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ on_exit() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-166" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ on_load_state_time_interval() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-167" parent="upDsCQsWGpah_1pPZecW-143" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_leave_world_data(peer*,proto_cabin_leave_world_data*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-168" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-143" source="upDsCQsWGpah_1pPZecW-157" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#FF00FF;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-152" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="359" />
+              <mxPoint x="680" y="710" />
+              <mxPoint x="-80" y="710" />
+              <mxPoint x="-80" y="229" />
+            </Array>
+            <mxPoint x="1280" y="580" as="sourcePoint" />
+            <mxPoint x="1440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-169" connectable="0" parent="upDsCQsWGpah_1pPZecW-168" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="96" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-170" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-143" source="upDsCQsWGpah_1pPZecW-153" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#CC6600;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-157" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="255" />
+              <mxPoint x="670" y="700" />
+              <mxPoint x="-70" y="700" />
+              <mxPoint x="-70" y="359" />
+            </Array>
+            <mxPoint x="930" y="650" as="sourcePoint" />
+            <mxPoint x="1090" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-171" connectable="0" parent="upDsCQsWGpah_1pPZecW-170" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="95" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-172" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="cabin_player_mgr" vertex="1">
+          <mxGeometry height="112" width="520" x="2487" y="1903" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-173" parent="upDsCQsWGpah_1pPZecW-172" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-174" parent="upDsCQsWGpah_1pPZecW-172" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="520" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-175" parent="upDsCQsWGpah_1pPZecW-172" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_save_role_fulL_data(cabin_player*，function on_succssed,function on_failed): void" vertex="1">
+          <mxGeometry height="26" width="520" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-176" parent="upDsCQsWGpah_1pPZecW-172" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_load_role_full_data(cabin_player*，function on_succssed,function on_failed): void" vertex="1">
+          <mxGeometry height="26" width="520" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-177" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="all_db_mgr" vertex="1">
+          <mxGeometry height="112" width="520" x="3087" y="1936" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-178" parent="upDsCQsWGpah_1pPZecW-177" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-179" parent="upDsCQsWGpah_1pPZecW-177" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="520" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-180" parent="upDsCQsWGpah_1pPZecW-177" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_proto_db_query_request(proto_dbproxy_db_query_request&amp;,function&amp;,int ): void" vertex="1">
+          <mxGeometry height="26" width="520" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-181" parent="upDsCQsWGpah_1pPZecW-177" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ save_sytem_data_and_destroy(): void" vertex="1">
+          <mxGeometry height="26" width="520" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-182" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-172" style="endArrow=block;endSize=16;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-191" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2357" y="1610" as="sourcePoint" />
+            <mxPoint x="2517" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-183" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="unit_pool" vertex="1">
+          <mxGeometry height="86" width="160" x="2667" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-184" parent="upDsCQsWGpah_1pPZecW-183" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-185" parent="upDsCQsWGpah_1pPZecW-183" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-186" parent="upDsCQsWGpah_1pPZecW-183" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-187" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="key_unit_pool" vertex="1">
+          <mxGeometry height="86" width="160" x="2667" y="1648" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-188" parent="upDsCQsWGpah_1pPZecW-187" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-189" parent="upDsCQsWGpah_1pPZecW-187" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-190" parent="upDsCQsWGpah_1pPZecW-187" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-191" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="key_session_unit_mgr" vertex="1">
+          <mxGeometry height="86" width="160" x="2667" y="1785" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-192" parent="upDsCQsWGpah_1pPZecW-191" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-193" parent="upDsCQsWGpah_1pPZecW-191" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-194" parent="upDsCQsWGpah_1pPZecW-191" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-195" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-161" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-175" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2417" y="2191" />
+              <mxPoint x="2417" y="1976" />
+            </Array>
+            <mxPoint x="2517" y="2140" as="sourcePoint" />
+            <mxPoint x="2677" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-196" connectable="0" parent="upDsCQsWGpah_1pPZecW-195" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="100" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-197" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#00FF00;fontColor=#000000;labelBackgroundColor=none;" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2827" y="2080" as="sourcePoint" />
+            <mxPoint x="2987" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-198" connectable="0" parent="upDsCQsWGpah_1pPZecW-197" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="100" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-199" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-175" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-180" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2987" y="2070" as="sourcePoint" />
+            <mxPoint x="3147" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-200" connectable="0" parent="upDsCQsWGpah_1pPZecW-199" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="100" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-201" diagramCategory="uml" diagramName="Dependency" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;strokeColor=#FF0000;fontColor=#000000;labelBackgroundColor=none;" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="3107" y="2160" as="sourcePoint" />
+            <mxPoint x="3267" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-202" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#FF0000;fontColor=#000000;labelBackgroundColor=none;" value="存数据">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2827" y="2120" as="sourcePoint" />
+            <mxPoint x="2987" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-203" connectable="0" parent="upDsCQsWGpah_1pPZecW-202" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="99" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-204" diagramCategory="general" diagramName="Callout" parent="1" style="shape=callout;whiteSpace=wrap;perimeter=calloutPerimeter;fillColor=#FFFFFF;fontColor=#000000;labelBackgroundColor=none;" value="交易行和掉落等即时进行保存" vertex="1">
+          <mxGeometry height="80" width="120" x="1387" y="2194" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-205" diagramCategory="general" diagramName="dashed" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-204" style="endArrow=none;dashed=1;strokeColor=#331A00;fontColor=#000000;exitX=0;exitY=0;exitDx=60;exitDy=80.00000000000001;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-163" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1867" y="2260" as="sourcePoint" />
+            <mxPoint x="1917" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-206" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#3333FF;fontColor=#000000;labelBackgroundColor=none;" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="2827" y="2160" as="sourcePoint" />
+            <mxPoint x="2987" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-207" connectable="0" parent="upDsCQsWGpah_1pPZecW-206" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="98" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-208" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#6600CC;fontColor=#000000;labelBackgroundColor=none;" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2200" />
+              <mxPoint x="2887" y="2200" />
+            </Array>
+            <mxPoint x="2827" y="2200" as="sourcePoint" />
+            <mxPoint x="2987" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-209" connectable="0" parent="upDsCQsWGpah_1pPZecW-208" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="97" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-210" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-127" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#6600CC;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-181" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1747" y="1441" />
+              <mxPoint x="1747" y="1580" />
+              <mxPoint x="2457" y="1580" />
+              <mxPoint x="2457" y="2035" />
+            </Array>
+            <mxPoint x="1106" y="1580" as="sourcePoint" />
+            <mxPoint x="2537" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-211" connectable="0" parent="upDsCQsWGpah_1pPZecW-210" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="97" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-212" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-181" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#3333FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;labelBackgroundColor=none;" target="upDsCQsWGpah_1pPZecW-164" value="存db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3787" y="2035" />
+              <mxPoint x="3787" y="2690" />
+              <mxPoint x="1517" y="2690" />
+              <mxPoint x="1517" y="2269" />
+            </Array>
+            <mxPoint x="3597.05" y="2160.05" as="sourcePoint" />
+            <mxPoint x="1477.05" y="2389.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-213" connectable="0" parent="upDsCQsWGpah_1pPZecW-212" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="98" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-214" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#FF00FF;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2240" />
+              <mxPoint x="2887" y="2240" />
+            </Array>
+            <mxPoint x="2827" y="2240" as="sourcePoint" />
+            <mxPoint x="2987" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-215" connectable="0" parent="upDsCQsWGpah_1pPZecW-214" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="96" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-216" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#CC6600;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2280" />
+              <mxPoint x="2887" y="2280" />
+            </Array>
+            <mxPoint x="2827" y="2280" as="sourcePoint" />
+            <mxPoint x="2987" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-217" connectable="0" parent="upDsCQsWGpah_1pPZecW-216" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="95" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-218" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#99004D;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2320" />
+              <mxPoint x="2887" y="2320" />
+            </Array>
+            <mxPoint x="2827" y="2320" as="sourcePoint" />
+            <mxPoint x="2987" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-219" connectable="0" parent="upDsCQsWGpah_1pPZecW-218" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="94" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-220" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-225" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#99004D;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-153" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2987" y="2773" />
+              <mxPoint x="2987" y="3040" />
+              <mxPoint x="1547" y="3040" />
+              <mxPoint x="1547" y="2035" />
+            </Array>
+            <mxPoint x="2777" y="2600" as="sourcePoint" />
+            <mxPoint x="2937" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-221" connectable="0" parent="upDsCQsWGpah_1pPZecW-220" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="94" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-222" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="gate_player" vertex="1">
+          <mxGeometry height="294" width="620" x="2277" y="2700" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-223" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_system_arr: boost::array&lt;cabin_player_base_system*,(int32)e_cabin_player_system_type::enum_max&gt;" vertex="1">
+          <mxGeometry height="26" width="620" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-224" parent="upDsCQsWGpah_1pPZecW-222" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="620" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-225" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_cabin_select_player() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-226" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_select_player_check_result(peer*,proto_gate_select_player_check_result*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-227" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ on_state_interval(e_gate_state): bool" vertex="1">
+          <mxGeometry height="26" width="620" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-228" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_select_player(peer*,proto_gate_select_player*): void" vertex="1">
+          <mxGeometry height="26" width="620" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-229" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_delete_player(peer*,proto_gate_delecte_player*): void" vertex="1">
+          <mxGeometry height="26" width="620" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-230" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_cancel_delete_player(peer*,proto_gate_delecte_player*): void" vertex="1">
+          <mxGeometry height="26" width="620" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-231" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_login_select_player_check(peer*,proto_gate_delecte_player*): void" vertex="1">
+          <mxGeometry height="26" width="620" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-232" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-222" source="upDsCQsWGpah_1pPZecW-231" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#B266FF;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-225" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="229" />
+              <mxPoint x="690" y="320" />
+              <mxPoint x="-120" y="320" />
+              <mxPoint x="-120" y="73" />
+            </Array>
+            <mxPoint x="840" y="-90" as="sourcePoint" />
+            <mxPoint x="1000" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-233" connectable="0" parent="upDsCQsWGpah_1pPZecW-232" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="88" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-234" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=#00CC00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_create_player(peer*,proto_gate_create_player*): void" vertex="1">
+          <mxGeometry height="26" width="620" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-235" parent="upDsCQsWGpah_1pPZecW-222" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_cabin_create_role(const xstring&amp;,int32,int32): void" vertex="1">
+          <mxGeometry height="26" width="620" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-236" diagramCategory="uml" diagramName="Relation1" edge="1" parent="upDsCQsWGpah_1pPZecW-222" source="upDsCQsWGpah_1pPZecW-234" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#00CC00;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-235" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="255" />
+              <mxPoint x="680" y="310" />
+              <mxPoint x="-100" y="310" />
+              <mxPoint x="-100" y="281" />
+            </Array>
+            <mxPoint x="650" y="260" as="sourcePoint" />
+            <mxPoint x="810" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-237" connectable="0" parent="upDsCQsWGpah_1pPZecW-236" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="87" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-238" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;labelBackgroundColor=none;" value="login_player" vertex="1">
+          <mxGeometry height="112" width="620" x="3087" y="2700" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-239" parent="upDsCQsWGpah_1pPZecW-238" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ m_system_arr: boost::array&lt;cabin_player_base_system*,(int32)e_cabin_player_system_type::enum_max&gt;" vertex="1">
+          <mxGeometry height="26" width="620" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-240" parent="upDsCQsWGpah_1pPZecW-238" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="8" width="620" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-241" parent="upDsCQsWGpah_1pPZecW-238" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_cabin_select_player_info() : void" vertex="1">
+          <mxGeometry height="26" width="620" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-242" parent="upDsCQsWGpah_1pPZecW-238" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ handle_select_player_check(peer*,proto_login_select_player_check*) : void" vertex="1">
+          <mxGeometry height="26" width="620" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-243" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#99004D;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2360" />
+              <mxPoint x="2887" y="2360" />
+            </Array>
+            <mxPoint x="2827" y="2360" as="sourcePoint" />
+            <mxPoint x="2987" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-244" connectable="0" parent="upDsCQsWGpah_1pPZecW-243" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="93" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-245" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-242" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#99004D;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-226" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3747" y="2799" />
+              <mxPoint x="3747" y="3030" />
+              <mxPoint x="2147" y="3030" />
+              <mxPoint x="2147" y="2799" />
+            </Array>
+            <mxPoint x="3497" y="2880" as="sourcePoint" />
+            <mxPoint x="3657" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-246" connectable="0" parent="upDsCQsWGpah_1pPZecW-245" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="93" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-247" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="gate_player_mgr" vertex="1">
+          <mxGeometry height="112" width="550" x="2277" y="3055" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-248" parent="upDsCQsWGpah_1pPZecW-247" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="550" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-249" parent="upDsCQsWGpah_1pPZecW-247" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="550" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-250" parent="upDsCQsWGpah_1pPZecW-247" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_query_player_result(peer*,proto_ret_query_center_result*): void" vertex="1">
+          <mxGeometry height="26" width="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-251" parent="upDsCQsWGpah_1pPZecW-247" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_center_query_player(const int64&amp;,const int64&amp;,center_sync_query_player_action): void" vertex="1">
+          <mxGeometry height="26" width="550" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-252" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#33FFFF;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2400.04" />
+              <mxPoint x="2887" y="2400.04" />
+            </Array>
+            <mxPoint x="2827" y="2400.04" as="sourcePoint" />
+            <mxPoint x="2987" y="2400.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-253" connectable="0" parent="upDsCQsWGpah_1pPZecW-252" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="92" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-254" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-228" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#33FFFF;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-251" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2977" y="2851" />
+              <mxPoint x="2977" y="3190" />
+              <mxPoint x="2177" y="3190" />
+              <mxPoint x="2177" y="3154" />
+            </Array>
+            <mxPoint x="2897" y="3190" as="sourcePoint" />
+            <mxPoint x="3057" y="3190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-255" connectable="0" parent="upDsCQsWGpah_1pPZecW-254" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="92" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-256" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#4D9900;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2440.05" />
+              <mxPoint x="2887" y="2440.05" />
+            </Array>
+            <mxPoint x="2827" y="2440.05" as="sourcePoint" />
+            <mxPoint x="2987" y="2440.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-257" connectable="0" parent="upDsCQsWGpah_1pPZecW-256" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="91" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-258" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-251" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#4D9900;fontColor=#000000;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="upDsCQsWGpah_1pPZecW-273" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3090" y="3154" />
+            </Array>
+            <mxPoint x="2777" y="3305" as="sourcePoint" />
+            <mxPoint x="2937" y="3305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-259" connectable="0" parent="upDsCQsWGpah_1pPZecW-258" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="91" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-260" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#004C99;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2480" />
+              <mxPoint x="2887" y="2480" />
+            </Array>
+            <mxPoint x="2827" y="2480" as="sourcePoint" />
+            <mxPoint x="2987" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-261" connectable="0" parent="upDsCQsWGpah_1pPZecW-260" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="90" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-262" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-273" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#004C99;fontColor=#000000;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="upDsCQsWGpah_1pPZecW-250" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3587" y="3154" />
+              <mxPoint x="3587" y="3408" />
+              <mxPoint x="2147" y="3408" />
+              <mxPoint x="2147" y="3128" />
+            </Array>
+            <mxPoint x="2757" y="3395" as="sourcePoint" />
+            <mxPoint x="3027" y="3515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-263" connectable="0" parent="upDsCQsWGpah_1pPZecW-262" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="90" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-264" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#999900;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2520" />
+              <mxPoint x="2887" y="2520" />
+            </Array>
+            <mxPoint x="2827" y="2520" as="sourcePoint" />
+            <mxPoint x="2987" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-265" connectable="0" parent="upDsCQsWGpah_1pPZecW-264" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="89" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-266" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-250" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#999900;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-231" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2957" y="3128" />
+              <mxPoint x="2957" y="3180" />
+              <mxPoint x="2167" y="3180" />
+              <mxPoint x="2167" y="2929" />
+            </Array>
+            <mxPoint x="3047" y="2880" as="sourcePoint" />
+            <mxPoint x="3227" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-267" connectable="0" parent="upDsCQsWGpah_1pPZecW-266" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="89" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-268" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#B266FF;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2560" />
+              <mxPoint x="2887" y="2560" />
+            </Array>
+            <mxPoint x="2827" y="2560" as="sourcePoint" />
+            <mxPoint x="2987" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-269" connectable="0" parent="upDsCQsWGpah_1pPZecW-268" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="88" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-270" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="center_player_mgr" vertex="1">
+          <mxGeometry height="86" width="410" x="3090" y="3081" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-271" parent="upDsCQsWGpah_1pPZecW-270" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="410" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-272" parent="upDsCQsWGpah_1pPZecW-270" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="410" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-273" parent="upDsCQsWGpah_1pPZecW-270" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ handle_query_center_player(peer*,proto_query_center_player*): void" vertex="1">
+          <mxGeometry height="26" width="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-274" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#00CC00;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2600" />
+              <mxPoint x="2887" y="2600" />
+            </Array>
+            <mxPoint x="2827" y="2600" as="sourcePoint" />
+            <mxPoint x="2987" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-275" connectable="0" parent="upDsCQsWGpah_1pPZecW-274" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="87" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-276" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#4C0099;fontColor=#000000;labelBackgroundColor=none;" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2887" y="2640" />
+              <mxPoint x="2887" y="2640" />
+            </Array>
+            <mxPoint x="2827" y="2640" as="sourcePoint" />
+            <mxPoint x="2987" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-277" connectable="0" parent="upDsCQsWGpah_1pPZecW-276" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="86" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-278" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="upDsCQsWGpah_1pPZecW-235" style="endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#4C0099;fontColor=#000000;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="upDsCQsWGpah_1pPZecW-151" value="读db">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2947" y="2981" />
+              <mxPoint x="2947" y="3050" />
+              <mxPoint x="1607" y="3050" />
+              <mxPoint x="1607" y="1983" />
+            </Array>
+            <mxPoint x="2917" y="2990" as="sourcePoint" />
+            <mxPoint x="3077" y="2990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="upDsCQsWGpah_1pPZecW-279" connectable="0" parent="upDsCQsWGpah_1pPZecW-278" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" value="86" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

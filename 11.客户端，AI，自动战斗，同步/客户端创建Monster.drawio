@@ -1,0 +1,157 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="b41Oh5nOw3WRPk7vQI8h">
+    <mxGraphModel dx="1092" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-1" connectable="0" parent="1" style="group;fillColor=#FFCCCC;opacity=50;" value="" vertex="1">
+          <mxGeometry height="746" width="420" x="280" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-2" diagramCategory="uml" diagramName="Class" parent="yzDdVaxShWZ3lYMB09Cr-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="AMirMonster" vertex="1">
+          <mxGeometry height="138" width="320" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-3" parent="yzDdVaxShWZ3lYMB09Cr-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-4" parent="yzDdVaxShWZ3lYMB09Cr-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-5" parent="yzDdVaxShWZ3lYMB09Cr-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ CreateStates(EStateType): TSharePtr&lt;FBaseState&gt;" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-6" parent="yzDdVaxShWZ3lYMB09Cr-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Initialize_Character(int,int64,FZoneObjectInfo*): void" vertex="1">
+          <mxGeometry height="26" width="320" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-7" parent="yzDdVaxShWZ3lYMB09Cr-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Initialize_Done(): void" vertex="1">
+          <mxGeometry height="26" width="320" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-8" diagramCategory="uml" diagramName="Class" parent="yzDdVaxShWZ3lYMB09Cr-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="FStateManager" vertex="1">
+          <mxGeometry height="112" width="180" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-9" parent="yzDdVaxShWZ3lYMB09Cr-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-10" parent="yzDdVaxShWZ3lYMB09Cr-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-11" parent="yzDdVaxShWZ3lYMB09Cr-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ CreateStates(): void" vertex="1">
+          <mxGeometry height="26" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-12" parent="yzDdVaxShWZ3lYMB09Cr-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ InitStates(EStateType): void" vertex="1">
+          <mxGeometry height="26" width="180" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-13" diagramCategory="uml" diagramName="Relation1" edge="1" parent="yzDdVaxShWZ3lYMB09Cr-1" source="yzDdVaxShWZ3lYMB09Cr-11" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="yzDdVaxShWZ3lYMB09Cr-5" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="253" />
+              <mxPoint x="260" y="353" />
+              <mxPoint x="20" y="353" />
+              <mxPoint x="20" y="453" />
+            </Array>
+            <mxPoint x="290" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-14" connectable="0" parent="yzDdVaxShWZ3lYMB09Cr-13" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-15" diagramCategory="uml" diagramName="Relation1" edge="1" parent="yzDdVaxShWZ3lYMB09Cr-1" source="yzDdVaxShWZ3lYMB09Cr-20" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yzDdVaxShWZ3lYMB09Cr-11" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="73" />
+              <mxPoint x="370" y="130" />
+              <mxPoint x="20" y="130" />
+              <mxPoint x="20" y="253" />
+            </Array>
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="470" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-16" connectable="0" parent="yzDdVaxShWZ3lYMB09Cr-15" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-17" diagramCategory="uml" diagramName="Class" parent="yzDdVaxShWZ3lYMB09Cr-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="AMirCharacter" vertex="1">
+          <mxGeometry height="86" width="210" x="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-18" parent="yzDdVaxShWZ3lYMB09Cr-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ StateManager: FStateManager*" vertex="1">
+          <mxGeometry height="26" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-19" parent="yzDdVaxShWZ3lYMB09Cr-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-20" parent="yzDdVaxShWZ3lYMB09Cr-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Initialize_Done(): void" vertex="1">
+          <mxGeometry height="26" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-21" diagramCategory="uml" diagramName="Relation1" edge="1" parent="yzDdVaxShWZ3lYMB09Cr-1" source="yzDdVaxShWZ3lYMB09Cr-7" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="yzDdVaxShWZ3lYMB09Cr-20" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="505" />
+              <mxPoint x="420" y="550" />
+              <mxPoint y="550" />
+              <mxPoint y="73" />
+            </Array>
+            <mxPoint x="410" y="480" as="sourcePoint" />
+            <mxPoint x="570" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-22" connectable="0" parent="yzDdVaxShWZ3lYMB09Cr-21" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-23" diagramCategory="uml" diagramName="Class" parent="yzDdVaxShWZ3lYMB09Cr-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="USpawnManager" vertex="1">
+          <mxGeometry height="86" width="320" x="60" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-24" parent="yzDdVaxShWZ3lYMB09Cr-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-25" parent="yzDdVaxShWZ3lYMB09Cr-23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-26" parent="yzDdVaxShWZ3lYMB09Cr-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnGeneratedMonster(FResourceloaderArgument): void" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-27" diagramCategory="uml" diagramName="Relation1" edge="1" parent="yzDdVaxShWZ3lYMB09Cr-1" source="yzDdVaxShWZ3lYMB09Cr-26" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yzDdVaxShWZ3lYMB09Cr-6" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="733" />
+              <mxPoint x="410" y="606" />
+              <mxPoint x="10" y="606" />
+              <mxPoint x="10" y="479" />
+            </Array>
+            <mxPoint x="430" y="730" as="sourcePoint" />
+            <mxPoint x="590" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-28" connectable="0" parent="yzDdVaxShWZ3lYMB09Cr-27" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-29" diagramCategory="uml" diagramName="Relation1" edge="1" parent="yzDdVaxShWZ3lYMB09Cr-1" source="yzDdVaxShWZ3lYMB09Cr-20" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="yzDdVaxShWZ3lYMB09Cr-12" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="73" />
+              <mxPoint x="390" y="140" />
+              <mxPoint x="10" y="140" />
+              <mxPoint x="10" y="279" />
+            </Array>
+            <mxPoint x="320" y="72" as="sourcePoint" />
+            <mxPoint x="510" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-30" connectable="0" parent="yzDdVaxShWZ3lYMB09Cr-29" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-31" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" value="Character" vertex="1">
+          <mxGeometry height="86" width="240" x="1020" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-32" parent="yzDdVaxShWZ3lYMB09Cr-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ StateManager: FStateManager*" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-33" parent="yzDdVaxShWZ3lYMB09Cr-31" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yzDdVaxShWZ3lYMB09Cr-34" parent="yzDdVaxShWZ3lYMB09Cr-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Initialize_Done(void): void" vertex="1">
+          <mxGeometry height="26" width="240" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
