@@ -1,64 +1,61 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="c4Xsxx8kxE7GtOyLMHJE">
-    <mxGraphModel dx="8264" dy="4876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1092" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-1" connectable="0" parent="1" style="group;fillColor=#FF9999;" value="" vertex="1">
-          <mxGeometry height="920" width="1440" x="1930" y="800" as="geometry" />
+          <mxGeometry height="920" width="1390" x="1980" y="800" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-2" diagramCategory="uml" diagramName="Class" parent="DT-IqaaGQeuPi4Bjo2e0-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;" value="AMyMirPlayer" vertex="1">
-          <mxGeometry height="216" width="588.92" x="31.08" y="410" as="geometry" />
+          <mxGeometry height="190" width="480" x="70" y="410" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-3" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="588.92" y="26" as="geometry" />
+          <mxGeometry height="26" width="480" y="26" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-4" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="588.92" y="52" as="geometry" />
+          <mxGeometry height="8" width="480" y="52" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-5" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ Tick(float): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="60" as="geometry" />
+          <mxGeometry height="26" width="480" y="60" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-6" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ SetMoveInfo(FCell,bool): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="86" as="geometry" />
+          <mxGeometry height="26" width="480" y="86" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-7" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ SendNetworkMsg_Move(int32,EMirOctaDirection,EMirObjectMoveTypa,float): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="112" as="geometry" />
+          <mxGeometry height="26" width="480" y="112" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-8" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ CSZoneMove(int32,EMirOctaDirection,EMirObjectMoveTypa,float): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="138" as="geometry" />
+          <mxGeometry height="26" width="480" y="138" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-9" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ ForceStateChange(): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="164" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-4" parent="DT-IqaaGQeuPi4Bjo2e0-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ ReceiveZoneMove(EMirObjectMoveType,int,EMirOctaDirection,EMirObjectMoveTypa,float): void" vertex="1">
-          <mxGeometry height="26" width="588.92" y="190" as="geometry" />
+          <mxGeometry height="26" width="480" y="164" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-10" diagramCategory="uml" diagramName="Class" parent="DT-IqaaGQeuPi4Bjo2e0-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;" value="FCellMovePath" vertex="1">
-          <mxGeometry height="112" width="165.75539568345323" x="1160.2877697841727" y="436" as="geometry" />
+          <mxGeometry height="112" width="160" x="1120" y="436" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-11" parent="DT-IqaaGQeuPi4Bjo2e0-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="165.75539568345323" y="26" as="geometry" />
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-12" parent="DT-IqaaGQeuPi4Bjo2e0-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="165.75539568345323" y="52" as="geometry" />
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-13" parent="DT-IqaaGQeuPi4Bjo2e0-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ OnStart(): void" vertex="1">
-          <mxGeometry height="26" width="165.75539568345323" y="60" as="geometry" />
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-14" parent="DT-IqaaGQeuPi4Bjo2e0-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ ProcessPath_(): void" vertex="1">
-          <mxGeometry height="26" width="165.75539568345323" y="86" as="geometry" />
+          <mxGeometry height="26" width="160" y="86" as="geometry" />
         </mxCell>
-        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-15" diagramCategory="uml" diagramName="Relation1" edge="1" parent="DT-IqaaGQeuPi4Bjo2e0-1" source="DT-IqaaGQeuPi4Bjo2e0-14" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" target="DT-IqaaGQeuPi4Bjo2e0-6" value="name">
+        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-15" diagramCategory="uml" diagramName="Relation1" edge="1" parent="DT-IqaaGQeuPi4Bjo2e0-1" source="DT-IqaaGQeuPi4Bjo2e0-14" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="1399" y="535" />
-              <mxPoint x="1399" y="750" />
-              <mxPoint y="750" />
-              <mxPoint y="510" />
+              <mxPoint x="1350" y="535" />
+              <mxPoint x="1350" y="660" />
+              <mxPoint x="50" y="660" />
+              <mxPoint x="50" y="510" />
             </Array>
-            <mxPoint x="1481.4388489208634" y="540" as="sourcePoint" />
-            <mxPoint x="72.5179856115108" y="510" as="targetPoint" />
+            <mxPoint x="1430" y="540" as="sourcePoint" />
+            <mxPoint x="70" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-16" connectable="0" parent="DT-IqaaGQeuPi4Bjo2e0-15" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;" value="1" vertex="1">
@@ -67,48 +64,30 @@
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-17" diagramCategory="uml" diagramName="Relation1" edge="1" parent="DT-IqaaGQeuPi4Bjo2e0-1" source="DT-IqaaGQeuPi4Bjo2e0-8" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="DT-IqaaGQeuPi4Bjo2e0-23" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="652.6618705035971" y="561" />
-              <mxPoint x="652.6618705035971" y="895" />
+              <mxPoint x="630" y="561" />
+              <mxPoint x="630" y="869" />
             </Array>
-            <mxPoint x="694.1007194244604" y="750" as="sourcePoint" />
-            <mxPoint x="859.8561151079136" y="750" as="targetPoint" />
+            <mxPoint x="670" y="750" as="sourcePoint" />
+            <mxPoint x="830" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-18" connectable="0" parent="DT-IqaaGQeuPi4Bjo2e0-17" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=10;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-19" diagramCategory="uml" diagramName="Class" parent="DT-IqaaGQeuPi4Bjo2e0-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;" value="UMessageSubsystem" vertex="1">
-          <mxGeometry height="138" width="580.1438848920864" x="808.0575539568346" y="770" as="geometry" />
+          <mxGeometry height="112" width="480" x="860" y="770" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-20" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="580.1438848920864" y="26" as="geometry" />
+          <mxGeometry height="26" width="480" y="26" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-21" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="8" width="580.1438848920864" y="52" as="geometry" />
+          <mxGeometry height="8" width="480" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-22" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="text;strokeColor=none;fillColor=#00FF00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;textShadow=0;" value="+ HandleSCzone_move(proto_mp_zone_move_sc*): void" vertex="1">
-          <mxGeometry height="26" width="580.1438848920864" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-3" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;labelBorderColor=#80FF00;" value="+ HandleSCzone_verify_move(proto_mp_zone_verify_move_sc*): void" vertex="1">
-          <mxGeometry height="26" width="580.1438848920864" y="86" as="geometry" />
+        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-22" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ HandleSCzone_move(proto_mp_zone_move_sc*): void" vertex="1">
+          <mxGeometry height="26" width="480" y="60" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-23" parent="DT-IqaaGQeuPi4Bjo2e0-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ CSZoneMove(int32,EMirOctaDirection,EMirObjectMoveTypa,float,float): void" vertex="1">
-          <mxGeometry height="26" width="580.1438848920864" y="112" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-5" edge="1" parent="DT-IqaaGQeuPi4Bjo2e0-1" source="xTMee10dK7J_-IGMfb7B-3" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xTMee10dK7J_-IGMfb7B-4" value="name">
-          <mxGeometry relative="1" x="-1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1430" y="869" />
-              <mxPoint x="1430" y="940" />
-              <mxPoint x="10" y="940" />
-              <mxPoint x="10" y="613" />
-            </Array>
-            <mxPoint x="580" y="740" as="sourcePoint" />
-            <mxPoint x="740" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-6" connectable="0" parent="xTMee10dK7J_-IGMfb7B-5" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
-          <mxGeometry relative="1" x="-1" as="geometry" />
+          <mxGeometry height="26" width="480" y="86" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-24" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="DT-IqaaGQeuPi4Bjo2e0-28" style="endArrow=block;endSize=16;endFill=0;html=1;labelBackgroundColor=none;exitX=0.474;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="DT-IqaaGQeuPi4Bjo2e0-34" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -188,8 +167,8 @@
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-40" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="DT-IqaaGQeuPi4Bjo2e0-5" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" target="DT-IqaaGQeuPi4Bjo2e0-79" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="2580" y="1283" />
-              <mxPoint x="2580" y="1200" />
+              <mxPoint x="2540" y="1283" />
+              <mxPoint x="2540" y="1200" />
               <mxPoint x="1540" y="1200" />
               <mxPoint x="1540" y="1027" />
             </Array>
@@ -301,7 +280,7 @@
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-64" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;" value="AMirCharacter" vertex="1">
-          <mxGeometry height="216" width="480" x="1568" y="380" as="geometry" />
+          <mxGeometry height="190" width="480" x="1568" y="380" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-65" parent="DT-IqaaGQeuPi4Bjo2e0-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="480" y="26" as="geometry" />
@@ -328,8 +307,8 @@
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
               <mxPoint x="522" y="125" />
-              <mxPoint x="522" y="300" />
-              <mxPoint x="-58" y="300" />
+              <mxPoint x="522" y="230" />
+              <mxPoint x="-58" y="230" />
               <mxPoint x="-58" y="177" />
             </Array>
             <mxPoint x="732" y="130" as="sourcePoint" />
@@ -338,9 +317,6 @@
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-73" connectable="0" parent="DT-IqaaGQeuPi4Bjo2e0-72" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-7" parent="DT-IqaaGQeuPi4Bjo2e0-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ ForceMoveToCell(int): void" vertex="1">
-          <mxGeometry height="26" width="480" y="190" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-74" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="DT-IqaaGQeuPi4Bjo2e0-71" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DT-IqaaGQeuPi4Bjo2e0-83" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
@@ -378,7 +354,7 @@
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-82" parent="DT-IqaaGQeuPi4Bjo2e0-76" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" value="+ ForceStateChange(): void" vertex="1">
           <mxGeometry height="26" width="240" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-83" parent="DT-IqaaGQeuPi4Bjo2e0-76" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=light-dark(#f90101, #ededed);opacity=50;" value="+ SetNextSkillState(FUseSkillState): bool" vertex="1">
+        <mxCell id="DT-IqaaGQeuPi4Bjo2e0-83" parent="DT-IqaaGQeuPi4Bjo2e0-76" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;opacity=50;" value="+ SetNextSkillState(FUseSkillState): bool" vertex="1">
           <mxGeometry height="26" width="240" y="164" as="geometry" />
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-84" parent="DT-IqaaGQeuPi4Bjo2e0-76" style="text;strokeColor=none;fillColor=#FF0080;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;opacity=50;" value="+ SetNextSkillState(FBaseState): void" vertex="1">
@@ -451,8 +427,8 @@
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
               <mxPoint x="2580" y="1387" />
-              <mxPoint x="2580" y="1540" />
-              <mxPoint x="1520" y="1540" />
+              <mxPoint x="2580" y="1420" />
+              <mxPoint x="1520" y="1420" />
               <mxPoint x="1520" y="1105" />
             </Array>
             <mxPoint x="2640" y="1390" as="sourcePoint" />
@@ -544,12 +520,6 @@
         </mxCell>
         <mxCell id="DT-IqaaGQeuPi4Bjo2e0-118" connectable="0" parent="DT-IqaaGQeuPi4Bjo2e0-117" style="resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=#ffffff;fontSize=10;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff0000&quot;&gt;服务器发送移动&lt;br&gt;位置，时间，方向，CellIndex,&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="250" x="3390" y="1626" as="geometry" />
-        </mxCell>
-        <mxCell id="xTMee10dK7J_-IGMfb7B-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="瞬移，停止，移动，方向，状态机，动画方向" vertex="1">
-          <mxGeometry height="30" width="150" x="1110" y="1292" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
