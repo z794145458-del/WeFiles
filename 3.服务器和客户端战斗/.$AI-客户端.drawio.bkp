@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="WrgMlZ5aO4icWi1-5cgM">
+    <mxGraphModel dx="1092" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-1" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="CMonster" vertex="1">
+          <mxGeometry height="86" width="360" x="230" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-2" parent="vfAifsSxzBx8pZSQgkQJ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-3" parent="vfAifsSxzBx8pZSQgkQJ-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-4" parent="vfAifsSxzBx8pZSQgkQJ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ Damage(CObject*,int32_t&amp;,AbilityEffectInfo*): int32_t" vertex="1">
+          <mxGeometry height="26" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-5" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="CStateBattle" vertex="1">
+          <mxGeometry height="86" width="160" x="230" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-6" parent="vfAifsSxzBx8pZSQgkQJ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-7" parent="vfAifsSxzBx8pZSQgkQJ-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-8" parent="vfAifsSxzBx8pZSQgkQJ-5" style="text;strokeColor=none;fillColor=#FF6666;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnUpdate(float): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-9" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" value="CStateIdle" vertex="1">
+          <mxGeometry height="86" width="160" x="590" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-10" parent="vfAifsSxzBx8pZSQgkQJ-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-11" parent="vfAifsSxzBx8pZSQgkQJ-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-12" parent="vfAifsSxzBx8pZSQgkQJ-9" style="text;strokeColor=none;fillColor=#FF6666;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnUpdate(float): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-13" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="vfAifsSxzBx8pZSQgkQJ-5" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="vfAifsSxzBx8pZSQgkQJ-14" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="810" as="sourcePoint" />
+            <mxPoint x="500" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-14" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" value="CState" vertex="1">
+          <mxGeometry height="86" width="160" x="230" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-15" parent="vfAifsSxzBx8pZSQgkQJ-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ _owner: CFsmObject*" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-16" parent="vfAifsSxzBx8pZSQgkQJ-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-17" parent="vfAifsSxzBx8pZSQgkQJ-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ OnUpdate(float): void" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-18" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="vfAifsSxzBx8pZSQgkQJ-1" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="vfAifsSxzBx8pZSQgkQJ-19" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="480" y="860" as="sourcePoint" />
+            <mxPoint x="640" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-19" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" value="CFsmObject" vertex="1">
+          <mxGeometry height="86" width="160" x="330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-20" parent="vfAifsSxzBx8pZSQgkQJ-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-21" parent="vfAifsSxzBx8pZSQgkQJ-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-22" parent="vfAifsSxzBx8pZSQgkQJ-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
