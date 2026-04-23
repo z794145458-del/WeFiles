@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="Ja3nV9ys-M8u7irDTpVW">
-    <mxGraphModel dx="5903" dy="3483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -671,7 +671,7 @@
         <mxCell id="sGtk0Lq__7zG2UhNLklz-50" parent="v366qwha3FQFqr_O7Hcs-153" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ on_player_login() : void  " vertex="1">
           <mxGeometry height="26" width="620" y="398" as="geometry" />
         </mxCell>
-        <mxCell id="v366qwha3FQFqr_O7Hcs-164" parent="v366qwha3FQFqr_O7Hcs-153" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_client_player_info() : void  登陆的终点" vertex="1">
+        <mxCell id="v366qwha3FQFqr_O7Hcs-164" parent="v366qwha3FQFqr_O7Hcs-153" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ send_client_player_info() : void  登录的终点，下发各个系统的数据。" vertex="1">
           <mxGeometry height="26" width="620" y="424" as="geometry" />
         </mxCell>
         <mxCell id="v366qwha3FQFqr_O7Hcs-166" parent="v366qwha3FQFqr_O7Hcs-153" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;labelBackgroundColor=none;" value="+ check_all_system_load() : void  向Center发送登录地图" vertex="1">
