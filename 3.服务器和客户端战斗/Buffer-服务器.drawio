@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="第 1 页" id="9dg7ea5C8AAuvVV_ac8r">
-    <mxGraphModel dx="2879" dy="2374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1685" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry height="26" width="480" y="190" as="geometry" />
         </mxCell>
         <mxCell id="XU39Qf7AqCegrl7sQpO5-25" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CBuff" vertex="1">
-          <mxGeometry height="242" width="440" x="1180" y="-67" as="geometry" />
+          <mxGeometry height="242" width="440" x="1359" y="-67" as="geometry" />
         </mxCell>
         <mxCell id="XU39Qf7AqCegrl7sQpO5-26" parent="XU39Qf7AqCegrl7sQpO5-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="440" y="26" as="geometry" />
@@ -257,9 +257,7 @@
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
               <mxPoint x="1260" y="-527" />
-              <mxPoint x="1260" y="-170" />
-              <mxPoint x="1150" y="-170" />
-              <mxPoint x="1150" y="58" />
+              <mxPoint x="1260" y="58" />
             </Array>
             <mxPoint x="1330" y="-480" as="sourcePoint" />
             <mxPoint x="1490" y="-480" as="targetPoint" />
@@ -284,7 +282,7 @@
           <mxGeometry height="26" width="330" y="86" as="geometry" />
         </mxCell>
         <mxCell id="WFMD3_umUStOjdjvBPXu-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CStats" vertex="1">
-          <mxGeometry height="86" width="330" x="2509" y="98" as="geometry" />
+          <mxGeometry height="86" width="330" x="2440" y="98" as="geometry" />
         </mxCell>
         <mxCell id="WFMD3_umUStOjdjvBPXu-29" parent="WFMD3_umUStOjdjvBPXu-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ _stat_list: vector&amp;lt;IStat*&amp;gt;" vertex="1">
           <mxGeometry height="26" width="330" y="26" as="geometry" />
@@ -298,9 +296,8 @@
         <mxCell id="WFMD3_umUStOjdjvBPXu-32" edge="1" parent="1" source="WFMD3_umUStOjdjvBPXu-27" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WFMD3_umUStOjdjvBPXu-31" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="2420" y="170" />
-              <mxPoint x="2420" y="171" />
-              <mxPoint x="2480" y="171" />
+              <mxPoint x="2332" y="170" />
+              <mxPoint x="2440" y="170" />
             </Array>
             <mxPoint x="2390" y="191" as="sourcePoint" />
             <mxPoint x="2550" y="191" as="targetPoint" />

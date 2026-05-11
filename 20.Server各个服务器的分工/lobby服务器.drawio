@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="第 1 页" id="DUD-PYDyPKK9T_t6yogo">
-    <mxGraphModel dx="14600" dy="8127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2039" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1999,7 +1999,7 @@
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-9" parent="PxSaRiJ2tcjeh5ayi3j9-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="847" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="PxSaRiJ2tcjeh5ayi3j9-10" parent="PxSaRiJ2tcjeh5ayi3j9-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ send_lobby_request_amusement_action(int64,e_request_amusement_action,...): void&amp;nbsp; 接到客户端的请求" vertex="1">
+        <mxCell id="PxSaRiJ2tcjeh5ayi3j9-10" parent="PxSaRiJ2tcjeh5ayi3j9-7" style="text;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ send_lobby_request_amusement_action(int64,e_request_amusement_action,...): void&amp;nbsp; 接到客户端的请求" vertex="1">
           <mxGeometry height="26" width="847" y="60" as="geometry" />
         </mxCell>
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-11" edge="1" parent="1" source="nUCLltADx5vRitIC6tmc-155" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="PxSaRiJ2tcjeh5ayi3j9-7" value="1">
@@ -2035,8 +2035,8 @@
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-18" edge="1" parent="1" source="PxSaRiJ2tcjeh5ayi3j9-10" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PxSaRiJ2tcjeh5ayi3j9-16" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="2190" y="2433" />
-              <mxPoint x="2190" y="2833" />
+              <mxPoint x="2240" y="2433" />
+              <mxPoint x="2240" y="2833" />
               <mxPoint x="610" y="2833" />
               <mxPoint x="610" y="3233" />
             </Array>
@@ -2090,7 +2090,7 @@
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-31" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="player_indun_system" vertex="1">
-          <mxGeometry height="112" width="360" x="1830" y="3280" as="geometry" />
+          <mxGeometry height="112" width="360" x="1972" y="3280" as="geometry" />
         </mxCell>
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-32" parent="PxSaRiJ2tcjeh5ayi3j9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="360" y="26" as="geometry" />
@@ -2168,8 +2168,8 @@
         <mxCell id="PxSaRiJ2tcjeh5ayi3j9-52" edge="1" parent="1" source="PxSaRiJ2tcjeh5ayi3j9-16" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PxSaRiJ2tcjeh5ayi3j9-23" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
-              <mxPoint x="1450" y="3233" />
-              <mxPoint x="1450" y="3593" />
+              <mxPoint x="1520" y="3233" />
+              <mxPoint x="1520" y="3593" />
               <mxPoint x="1020" y="3593" />
               <mxPoint x="1020" y="3953" />
             </Array>
