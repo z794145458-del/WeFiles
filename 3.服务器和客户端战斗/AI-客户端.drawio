@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="第 1 页" id="WrgMlZ5aO4icWi1-5cgM">
-    <mxGraphModel dx="2066" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="736" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="vfAifsSxzBx8pZSQgkQJ-11" parent="vfAifsSxzBx8pZSQgkQJ-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="8" width="320" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="vfAifsSxzBx8pZSQgkQJ-12" parent="vfAifsSxzBx8pZSQgkQJ-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ HandleSCskill_start(proto_mp_skill_start_sc*): void" vertex="1">
+        <mxCell id="vfAifsSxzBx8pZSQgkQJ-12" parent="vfAifsSxzBx8pZSQgkQJ-9" style="text;strokeColor=none;fillColor=#FF6666;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ HandleSCskill_start(proto_mp_skill_start_sc*): void" vertex="1">
           <mxGeometry height="26" width="320" y="60" as="geometry" />
         </mxCell>
         <mxCell id="vfAifsSxzBx8pZSQgkQJ-13" diagramCategory="uml" diagramName="Generalization" edge="1" parent="1" source="vfAifsSxzBx8pZSQgkQJ-5" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="vfAifsSxzBx8pZSQgkQJ-14" value="Extends">
@@ -125,7 +125,7 @@
         <mxCell id="6luwuiciLdm8nR_Ha_Mt-10" connectable="0" parent="6luwuiciLdm8nR_Ha_Mt-9" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
-        <mxCell id="6luwuiciLdm8nR_Ha_Mt-11" edge="1" parent="1" source="6luwuiciLdm8nR_Ha_Mt-4" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" target="6luwuiciLdm8nR_Ha_Mt-8" value="name">
+        <mxCell id="6luwuiciLdm8nR_Ha_Mt-11" edge="1" parent="1" source="6luwuiciLdm8nR_Ha_Mt-4" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;strokeColor=#FF0000;" target="6luwuiciLdm8nR_Ha_Mt-8" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="1040" y="740" as="sourcePoint" />
             <mxPoint x="1080" y="673" as="targetPoint" />
@@ -302,7 +302,7 @@
         <mxCell id="6luwuiciLdm8nR_Ha_Mt-57" connectable="0" parent="6luwuiciLdm8nR_Ha_Mt-56" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
-        <mxCell id="6luwuiciLdm8nR_Ha_Mt-58" edge="1" parent="1" source="6luwuiciLdm8nR_Ha_Mt-31" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6luwuiciLdm8nR_Ha_Mt-33" value="name">
+        <mxCell id="6luwuiciLdm8nR_Ha_Mt-58" edge="1" parent="1" source="6luwuiciLdm8nR_Ha_Mt-31" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="6luwuiciLdm8nR_Ha_Mt-33" value="name">
           <mxGeometry relative="1" x="-1" as="geometry">
             <Array as="points">
               <mxPoint x="1030" y="777" />

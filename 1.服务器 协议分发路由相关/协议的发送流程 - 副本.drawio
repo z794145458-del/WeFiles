@@ -1481,31 +1481,31 @@
           <mxGeometry height="26" width="270" y="60" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-336" diagramCategory="uml" diagramName="Class" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" value="session_unit" vertex="1">
-          <mxGeometry height="294" width="630" x="1040" y="1500" as="geometry" />
+          <mxGeometry height="294" width="520" x="1150" y="1500" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-337" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ m_info[]: session_info" vertex="1">
-          <mxGeometry height="26" width="630" y="26" as="geometry" />
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-338" parent="zZgUK8w0upFPqH7PkxKa-336" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="630" y="52" as="geometry" />
+          <mxGeometry height="8" width="520" y="52" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-339" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ proc(peer*,proto_unpacker&amp;): void" vertex="1">
-          <mxGeometry height="26" width="630" y="60" as="geometry" />
+          <mxGeometry height="26" width="520" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="zZgUK8w0upFPqH7PkxKa-340" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=#FF9999;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_msg(const PROTO&amp;,const xstring&amp;): void 发送消息" vertex="1">
-          <mxGeometry height="26" width="630" y="86" as="geometry" />
+        <mxCell id="zZgUK8w0upFPqH7PkxKa-340" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=#00FF00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_msg(const PROTO&amp;,const xstring&amp;): void" vertex="1">
+          <mxGeometry height="26" width="520" y="86" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-341" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_msg(bool,int32,e_server_type,const Message,const xstring&amp;): void" vertex="1">
-          <mxGeometry height="26" width="630" y="112" as="geometry" />
+          <mxGeometry height="26" width="520" y="112" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-342" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_msg_base(......): void" vertex="1">
-          <mxGeometry height="26" width="630" y="138" as="geometry" />
+          <mxGeometry height="26" width="520" y="138" as="geometry" />
         </mxCell>
-        <mxCell id="zZgUK8w0upFPqH7PkxKa-343" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=#00FF00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_single_msg_base(const xstring&amp;,const xstring&amp;,e_connction_type,e_server_type): bool  向单个玩家发送消息" vertex="1">
-          <mxGeometry height="26" width="630" y="164" as="geometry" />
+        <mxCell id="zZgUK8w0upFPqH7PkxKa-343" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ send_single_msg_base(const xstring&amp;,const xstring&amp;,e_connction_type,e_server_type): bool" vertex="1">
+          <mxGeometry height="26" width="520" y="164" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-344" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ connent_to(const xstring&amp;,const xstring&amp;,e_connction_type,e_server_type): bool" vertex="1">
-          <mxGeometry height="26" width="630" y="190" as="geometry" />
+          <mxGeometry height="26" width="520" y="190" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-345" diagramCategory="uml" diagramName="Relation1" edge="1" parent="zZgUK8w0upFPqH7PkxKa-336" source="zZgUK8w0upFPqH7PkxKa-340" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zZgUK8w0upFPqH7PkxKa-341" value="发送消息">
           <mxGeometry relative="1" x="-1" as="geometry">
@@ -1553,13 +1553,13 @@
           <mxGeometry relative="1" x="-1" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-351" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ set_session_info(e_server_type,session_info): void" vertex="1">
-          <mxGeometry height="26" width="630" y="216" as="geometry" />
+          <mxGeometry height="26" width="520" y="216" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-352" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ create_single_session_to_server(e_server_type,e_create_session_type,const xstring&amp;): void" vertex="1">
-          <mxGeometry height="26" width="630" y="242" as="geometry" />
+          <mxGeometry height="26" width="520" y="242" as="geometry" />
         </mxCell>
-        <mxCell id="zZgUK8w0upFPqH7PkxKa-353" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=#00FF00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ create_session_to_server(e_server_type,e_create_session_type,const xstring&amp;): void" vertex="1">
-          <mxGeometry height="26" width="630" y="268" as="geometry" />
+        <mxCell id="zZgUK8w0upFPqH7PkxKa-353" parent="zZgUK8w0upFPqH7PkxKa-336" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ create_session_to_server(e_server_type,e_create_session_type,const xstring&amp;): void" vertex="1">
+          <mxGeometry height="26" width="520" y="268" as="geometry" />
         </mxCell>
         <mxCell id="zZgUK8w0upFPqH7PkxKa-354" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="zZgUK8w0upFPqH7PkxKa-90" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" target="zZgUK8w0upFPqH7PkxKa-351" value="发送消息">
           <mxGeometry relative="1" x="-1" as="geometry">

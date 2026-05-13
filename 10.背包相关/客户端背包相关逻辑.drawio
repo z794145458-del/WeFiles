@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36">
   <diagram name="第 1 页" id="-BQqoVX2DNqV8wdxaWja">
-    <mxGraphModel dx="1092" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,9 +211,6 @@
         </mxCell>
         <mxCell id="TLQAp_vj4oSOQLClWR7T-56" parent="TLQAp_vj4oSOQLClWR7T-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ SetIcon(int32,int64): bool" vertex="1">
           <mxGeometry height="26" width="290" y="86" as="geometry" />
-        </mxCell>
-        <mxCell id="TLQAp_vj4oSOQLClWR7T-57" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" x="950" y="460" as="geometry" />
         </mxCell>
         <mxCell id="TLQAp_vj4oSOQLClWR7T-58" diagramCategory="uml" diagramName="Relation1" edge="1" parent="1" source="TLQAp_vj4oSOQLClWR7T-42" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#FF030B;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TLQAp_vj4oSOQLClWR7T-21" value="name">
           <mxGeometry relative="1" x="-0.875" y="20" as="geometry">
